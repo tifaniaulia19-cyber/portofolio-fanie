@@ -4,109 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple (Indonesia)</title>
-    
-    <!-- FontAwesome untuk Icon (Apple logo, Search, Bag) -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Link ke file CSS terpisah -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- 1. Navigation Bar (Fixed di Paling Atas) -->
+    <!-- 1. Navigation Bar -->
     <nav class="global-nav">
         <ul>
-            <!-- Klik Logo Apple untuk kembali ke Halaman Utama / Index -->
             <li><a href="apple.html"><i class="fa-brands fa-apple nav-icon"></i></a></li>
-            
-            <!-- Menu Navigasi (Bisa diisi file .html buatan sendiri atau link resmi) -->
             <li><a href="store.html">Store</a></li>
+             <li><a href="ipad.html">iPad</a></li>
             <li><a href="mac.html">Mac</a></li>
-            <li><a href="ipad.html">iPad</a></li>
             <li><a href="apple.html">iPhone</a></li>
             <li><a href="watch.html">Watch</a></li>
             <li><a href="vision.html">Vision</a></li>
             <li><a href="airpods.html">AirPods</a></li>
-            <li><a href="tv-home.html">TV & Home</a></li>
+            <li><a href="tv-home.html">TV &amp; Home</a></li>
             <li><a href="entertainment.html">Entertainment</a></li>
             <li><a href="accessories.html">Accessories</a></li>
             <li><a href="support.html">Support</a></li>
-            
-            <!-- Tombol Pencarian dan Keranjang -->
             <li><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
             <li><a href="bag.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
         </ul>
     </nav>
-</body>
-</html>
 
     <!-- 2. Promo Banner / Ribbon -->
     <div class="ribbon">
         Untuk waktu terbatas, dapatkan kartu hadiah hingga $150◊ saat Anda membeli Mac atau iPad dengan potongan harga pendidikan. <a href="#">Belanja &gt;</a>
     </div>
 
-   <!-- 3. Hero Section 1: iPhone 18 Pro (Full Landscape Hero) -->
-<section class="hero-section dark-theme hero-full-landscape">
-    <div class="hero-content">
-        <h1 class="hero-title">iPhone 18 Pro</h1>
-        <p class="hero-subtitle">Pro lebih lanjut.</p>
-        <p class="hero-date">Tersedia mulai 18 September</p>
-        
-        <div class="cta-group">
-            <a href="#" class="btn btn-primary">Pelajari selengkapnya</a>
-            <a href="#" class="btn btn-secondary-dark">Pra-pemesanan</a>
-        </div>
-    </div>
+    <!-- 3. Hero Section 1: iPhone 18 Pro (Full Screen) -->
+    <section class="hero-section dark-theme hero-full-landscape hero-fullscreen">
 
-    <!-- Container Gambar Landscape Full -->
-    <div class="hero-landscape-image">
-    <img src="../images/new.png" alt="iPhone 18 Pro Landscape" class="floating-img">
-    </div>
-</section>
+        <div class="hero-content">
+            <h1 class="hero-title">iPhone 18 <span class="chrome-text">Pro</span></h1>
+            <p class="hero-subtitle">Pro lebih lanjut.</p>
+            <p class="hero-date">Tersedia mulai 18 September</p>
+
+            <div class="cta-group">
+                <a href="#" class="btn btn-primary glossy">Pelajari selengkapnya</a>
+                <a href="#" class="btn btn-secondary-dark glossy">Pra-pemesanan</a>
+            </div>
+        </div>
+
+        <!-- Gambar iPhone + teks "PRO" berkilau di belakangnya -->
+        <div class="hero-landscape-image holo">
+            <div class="pro-glow-text" aria-hidden="true"><span>Pro</span></div>
+            <img
+                src="../images/18pro.png"
+                alt="iPhone 18 Pro Landscape"
+                class="floating-img"
+            >
+        </div>
+
+    </section>
 
     <!-- 4. Hero Section 2: iPhone Duo (Light Mode) -->
     <section class="hero-section light-theme">
         <h1 class="hero-title">iPhone Duo</h1>
-        <p class="hero-subtitle">Halo, halo.</p>
+        <p class="hero-subtitle">Halo.</p>
         <p class="hero-description">
             Pemesanan awal dimulai pukul 5:00 pagi PT pada tanggal 16 Oktober. Tersedia mulai tanggal 23 Oktober.
         </p>
-        
+
         <div class="cta-group">
-            <a href="#" class="btn btn-primary">Pelajari selengkapnya</a>
-            <a href="#" class="btn btn-secondary-light">Lihat harga</a>
+            <a href="#" class="btn btn-primary glossy">Pelajari selengkapnya</a>
+            <a href="#" class="btn btn-secondary-light glossy">Lihat harga</a>
         </div>
 
-        <div class="hero-image-container">
+        <div class="hero-image-container holo">
             <img src="../images/ipduo.png" alt="iPhone Duo" class="floating-img">
         </div>
     </section>
 
-    <!-- 5. Bento Grid Section (2 Kolom) -->
+    <!-- 5. Bento Grid Section -->
     <div class="bento-container">
-        
+
         <!-- Bento 1: Penawaran Operator -->
-        <div class="bento-card light-theme">
+        <div class="bento-card light-theme holo">
             <div class="card-content">
                 <h2 class="card-title">Penawaran operator seluler yang luar biasa di Apple.</h2>
                 <p class="card-desc">Jelajahi penawaran yang menerima perangkat tukar tambah yang memenuhi syarat dalam kondisi apa pun.<sup>1</sup></p>
                 <div class="cta-group">
-                    <a href="#" class="btn btn-primary">Temukan penawaran Anda</a>
+                    <a href="#" class="btn btn-primary glossy">Temukan penawaran Anda</a>
                 </div>
             </div>
             <div class="card-image">
-                <img src="https://via.placeholder.com/500x300/f5f5f7/000000?text=Carrier+Deals" alt="Penawaran Operator">
+                <img src="../images/flip.png" alt="Penawaran Operator">
             </div>
         </div>
 
         <!-- Bento 2: Apple Watch Series 12 -->
-        <div class="bento-card dark-theme">
+        <div class="bento-card dark-theme holo">
             <div class="card-content">
-                <h2 class="card-title"><i class="fa-brands fa-apple"></i> WATCH SERIES 12</h2>
+                <h2 class="card-title"><i class="fa-brands fa-apple"></i> WATCH SERIES <span class="chrome-text">12</span></h2>
                 <p class="card-subtitle">Pengukuran detak jantung paling akurat pada perangkat wearable.<sup>1</sup></p>
                 <p class="card-date">Tersedia mulai 18 September</p>
                 <div class="cta-group">
-                    <a href="#" class="btn btn-primary">Pelajari selengkapnya</a>
-                    <a href="#" class="btn btn-secondary-dark">Pra-pemesanan</a>
+                    <a href="#" class="btn btn-primary glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="btn btn-secondary-dark glossy">Pra-pemesanan</a>
                 </div>
             </div>
             <div class="card-image">
@@ -115,75 +112,59 @@
         </div>
 
         <!-- Bento 3: Apple Watch Ultra 4 -->
-        <div class="bento-card dark-theme">
+        <div class="bento-card dark-theme holo">
             <div class="card-content">
-                <h2 class="card-title"><i class="fa-brands fa-apple"></i> WATCH ULTRA 4</h2>
+                <h2 class="card-title"><i class="fa-brands fa-apple"></i> WATCH <span class="chrome-text">ULTRA</span> 4</h2>
                 <p class="card-subtitle">Baterai yang tak bisa Anda kalahkan dengan lari.</p>
                 <p class="card-date">Tersedia mulai 18 September</p>
                 <div class="cta-group">
-                    <a href="#" class="btn btn-primary">Pelajari selengkapnya</a>
-                    <a href="#" class="btn btn-secondary-dark">Pra-pemesanan</a>
+                    <a href="#" class="btn btn-primary glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="btn btn-secondary-dark glossy">Pra-pemesanan</a>
                 </div>
             </div>
             <div class="card-image">
-                <img src="https://via.placeholder.com/500x250/000000/FFFFFF?text=Watch+Ultra+4" alt="Apple Watch Ultra 4">
+                <img src="../images/watch4.png" alt="Apple Watch Ultra 4">
             </div>
         </div>
 
         <!-- Bento 4: AirPods 5 -->
-        <div class="bento-card airpods-theme">
+        <div class="bento-card airpods-theme holo">
             <div class="card-content">
                 <h2 class="card-title">AirPods 5</h2>
                 <p class="card-subtitle">Temukan keajaiban Peredam Kebisingan Aktif.</p>
                 <p class="card-date">Tersedia mulai 18 September</p>
                 <div class="cta-group">
-                    <a href="#" class="btn btn-primary">Pelajari selengkapnya</a>
-                    <a href="#" class="btn btn-secondary-dark">Pra-pemesanan</a>
+                    <a href="#" class="btn btn-primary glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="btn btn-secondary-dark glossy">Pra-pemesanan</a>
                 </div>
             </div>
             <div class="card-image">
-                <img src="https://via.placeholder.com/500x250/112233/FFFFFF?text=AirPods+5" alt="AirPods 5">
+                <img src="../images/airpods.5.png" alt="AirPods 5">
             </div>
         </div>
 
         <!-- Bento 5: MacBook Air -->
-        <div class="bento-card light-theme">
+        <div class="bento-card light-theme holo">
             <div class="card-content">
                 <h2 class="card-title">MacBook Air</h2>
-                <p class="card-subtitle">Kini ditingkatkan performanya oleh M5.</p>
+                <p class="card-subtitle">Kini ditingkatkan performanya oleh <span class="chrome-text">M5</span>.</p>
                 <div class="cta-group">
-                    <a href="#" class="btn btn-primary">Pelajari selengkapnya</a>
-                    <a href="#" class="btn btn-secondary-light">Membeli</a>
+                    <a href="#" class="btn btn-primary glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="btn btn-secondary-light glossy">Membeli</a>
                 </div>
             </div>
             <div class="card-image">
-                <img src="https://via.placeholder.com/500x250/fbfbfd/000000?text=MacBook+Air" alt="MacBook Air">
+                <img src="../images/macbook.png" alt="MacBook Air">
             </div>
         </div>
-
-        <!-- Bento 6: Apple Card -->
-        <div class="bento-card light-theme">
-            <div class="card-content">
-                <h2 class="card-title"><i class="fa-brands fa-apple"></i> Card</h2>
-                <p class="card-desc">Dapatkan cashback hingga 3% setiap hari untuk setiap pembelian.</p>
-                <div class="cta-group">
-                    <a href="#" class="btn btn-primary">Pelajari selengkapnya</a>
-                    <a href="#" class="btn btn-secondary-light">Daftar sekarang</a>
-                </div>
-            </div>
-            <div class="card-image">
-                <img src="https://via.placeholder.com/500x250/fbfbfd/000000?text=Apple+Card" alt="Apple Card">
-            </div>
-        </div>
-
     </div>
 
     <!-- 6. Section Hiburan -->
-    <section class="entertainment-section">
+    <section class="entertainment-section hero-fullscreen">
         <h2 class="section-heading">Hiburan tanpa batas.</h2>
     </section>
 
-    <!-- Script efek 3D (tilt on hover) -->
+    <!-- Script efek 3D tilt + hologram -->
     <script src="script.js"></script>
 </body>
 </html>

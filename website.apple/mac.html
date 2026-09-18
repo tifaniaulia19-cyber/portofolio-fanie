@@ -1,157 +1,174 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Switch to Mac & Explore Lineup</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac — Apple (Indonesia)</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- 1. Navigation Bar -->
+    <nav class="global-nav">
+        <ul>
+            <li><a href="apple.html"><i class="fa-brands fa-apple nav-icon"></i></a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="mac.html">Mac</a></li>
+            <li><a href="ipad.html">iPad</a></li>
+            <li><a href="apple.html">iPhone</a></li>
+            <li><a href="watch.html">Watch</a></li>
+            <li><a href="vision.html">Vision</a></li>
+            <li><a href="airpods.html">AirPods</a></li>
+            <li><a href="tv-home.html">TV &amp; Home</a></li>
+            <li><a href="entertainment.html">Entertainment</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="bag.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+    </nav>
 
-  <!-- ================= SECTION 1: SWITCH TO MAC ================= -->
-  <section class="switch-section">
-    <h2 class="section-title">Switch to Mac.</h2>
-    
-    <div class="switch-grid">
-      <!-- Card 1: Apple Trade In -->
-      <div class="card card-tradein">
-        <div class="card-content">
-          <h3>Give us the old. Save on the new.</h3>
-          <p class="card-desc">With Apple Trade In, you can get a great value for your current device and apply it toward a new one. If your device isn't eligible for credit, we'll recycle it for free.<sup>1</sup></p>
-          <a href="#" class="link-blue">See what your device is worth &gt;</a>
-        </div>
-        <div class="card-image">
-          <img src="../images/trade-in.png" alt="Apple Trade In">
-        </div>
-      </div>
+        <!-- Carousel Track -->
+        <div class="carousel-track">
 
-      <!-- Card 2: Mac does that -->
-      <div class="card card-macdoes">
-        <div class="card-content">
-          <h3>Mac does that.</h3>
-          <p class="card-desc">See how easy it is to move to Mac.</p>
-          <a href="#" class="link-blue">Learn more &gt;</a>
-        </div>
-        <div class="card-image">
-          <img src="../images/mac-does-that.png" alt="Mac UI Screenshots">
-        </div>
-      </div>
-    </div>
-  </section>
+            <!-- Product 1: MacBook Neo -->
+            <div class="lineup-card holo" data-category="laptops">
+                <div class="lineup-visual visual-air">
+                    <img src="../images/macneo.jpg" alt="MacBook Neo">
+                </div>
+                <div class="color-dots">
+                    <span style="background:#90a4ae;"></span>
+                    <span style="background:#cfd8dc;" class="active"></span>
+                    <span style="background:#ffe082;"></span>
+                    <span style="background:#ce93d8;"></span>
+                </div>
+                <h3>MacBook Neo</h3>
+                <p class="lineup-desc">Keajaiban Mac dengan harga yang mengejutkan.</p>
+                <p class="lineup-price">
+                    Mulai $699 atau $58,25/bln untuk 12 bln.<sup>&Delta;</sup>
+                </p>
+                <div class="lineup-actions">
+                    <a href="#" class="pill-btn glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="text-link-buy">Beli &gt;</a>
+                </div>
+            </div>
 
-  <!-- ================= SECTION 2: EXPLORE THE LINEUP ================= -->
-  <section class="lineup-section">
-    <h2 class="section-title">Explore the lineup.</h2>
+            <!-- Product 2: MacBook Air -->
+            <div class="lineup-card holo" data-category="laptops">
+                <div class="lineup-visual visual-air">
+                    <img src="../images/macair.jpg" alt="MacBook Air">
+                </div>
+                <div class="color-dots">
+                    <span style="background:#263238;" class="active"></span>
+                    <span style="background:#eceff1;"></span>
+                    <span style="background:#d7ccc8;"></span>
+                    <span style="background:#b0bec5;"></span>
+                </div>
+                <h3>MacBook Air 13” dan 15”</h3>
+                <p class="lineup-desc">Tipis. Cepat. Bertenaga dan portabel.</p>
+                <p class="lineup-price">
+                    Mulai $1299 atau $108,25/bln untuk 12 bln.<sup>&Delta;</sup><br>
+                    Sewa mulai $24,99/bln untuk 36 bln dengan Apple Upgrade.<sup>&Delta;</sup>
+                </p>
+                <div class="lineup-actions">
+                    <a href="#" class="pill-btn glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="text-link-buy">Beli &gt;</a>
+                </div>
+            </div>
 
-    <!-- Filter Tabs -->
-    <div class="filter-tabs">
-      <button class="tab-btn active">All products</button>
-      <button class="tab-btn">Laptops</button>
-      <button class="tab-btn">Desktops</button>
-      <button class="tab-btn">Displays</button>
-    </div>
+            <!-- Product 3: MacBook Pro -->
+            <div class="lineup-card holo" data-category="laptops">
+                <div class="lineup-visual visual-pro">
+                    <img src="../images/macpro.jpg" alt="MacBook Pro">
+                </div>
+                <div class="color-dots">
+                    <span style="background:#37474f;" class="active"></span>
+                    <span style="background:#cfd8dc;"></span>
+                </div>
+                <h3>MacBook Pro 14” dan 16”</h3>
+                <p class="lineup-desc">Mac laptop paling canggih untuk tugas berat.</p>
+                <p class="lineup-price">
+                    Mulai $1999 atau $166,58/bln untuk 12 bln.<sup>&Delta;</sup><br>
+                    Sewa mulai $38,99/bln untuk 36 bln dengan Apple Upgrade.<sup>&Delta;</sup>
+                </p>
+                <div class="lineup-actions">
+                    <a href="#" class="pill-btn glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="text-link-buy">Beli &gt;</a>
+                </div>
+            </div>
 
-    <!-- Product Grid / Slider -->
-    <div class="lineup-grid">
-      
-      <!-- Product 1 -->
-      <div class="product-card">
-        <div class="product-img-box">
-          <img src="../images/macbook-neo.png" alt="MacBook Neo">
-        </div>
-        <div class="color-dots">
-          <span class="dot" style="background: #90a4ae;"></span>
-          <span class="dot" style="background: #cfd8dc;"></span>
-          <span class="dot" style="background: #ffe082;"></span>
-          <span class="dot" style="background: #ce93d8;"></span>
-        </div>
-        <h3 class="product-name">MacBook Neo</h3>
-        <p class="product-tagline">The magic of Mac at a surprising price.</p>
-        <p class="product-price">From $699 or $58.25/mo. for 12 mo.</p>
-        <div class="product-actions">
-          <a href="#" class="btn-blue">Learn more</a>
-          <a href="#" class="link-blue">Buy &gt;</a>
-        </div>
-      </div>
+            <!-- Product 4: iMac -->
+            <div class="lineup-card holo" data-category="desktops">
+                <div class="lineup-visual visual-ipad">
+                    <img src="../images/imac.png" alt="iMac">
+                </div>
+                <div class="color-dots">
+                    <span style="background:#ef5350;"></span>
+                    <span style="background:#42a5f5;"></span>
+                    <span style="background:#66bb6a;"></span>
+                    <span style="background:#ffee58;"></span>
+                    <span style="background:#ab47bc;"></span>
+                    <span style="background:#ffa726;"></span>
+                    <span style="background:#b0bec5;" class="active"></span>
+                </div>
+                <h3>iMac</h3>
+                <p class="lineup-desc">Desktop all-in-one untuk kreativitas dan produktivitas.</p>
+                <p class="lineup-price">
+                    Mulai $1499 atau $124,91/bln untuk 12 bln.<sup>&Delta;</sup><br>
+                    Sewa mulai $28,99/bln untuk 36 bln dengan Apple Upgrade.<sup>&Delta;</sup>
+                </p>
+                <div class="lineup-actions">
+                    <a href="#" class="pill-btn glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="text-link-buy">Beli &gt;</a>
+                </div>
+            </div>
 
-      <!-- Product 2 -->
-      <div class="product-card">
-        <div class="product-img-box">
-          <img src="../images/macbook-air.png" alt="MacBook Air">
-        </div>
-        <div class="color-dots">
-          <span class="dot" style="background: #263238;"></span>
-          <span class="dot" style="background: #eceff1;"></span>
-          <span class="dot" style="background: #d7ccc8;"></span>
-          <span class="dot" style="background: #b0bec5;"></span>
-        </div>
-        <h3 class="product-name">MacBook Air 13” and 15”</h3>
-        <p class="product-tagline">Thin. Fast. Powerful and portable.</p>
-        <p class="product-price">From $1099 or $91.58/mo. for 12 mo.</p>
-        <div class="product-actions">
-          <a href="#" class="btn-blue">Learn more</a>
-          <a href="#" class="link-blue">Buy &gt;</a>
-        </div>
-      </div>
+            <!-- Product 5: Mac mini -->
+            <div class="lineup-card holo" data-category="desktops">
+                <div class="lineup-visual visual-mini">
+                    <img src="../images/mac-mini.png" alt="Mac mini">
+                </div>
+                <span class="badge-new">Baru</span>
+                <h3>Mac mini</h3>
+                <p class="lineup-desc">Mac desktop paling mini dan paling terjangkau.</p>
+                <p class="lineup-price">
+                    Mulai $899 atau $74,91/bln untuk 12 bln.<sup>&Delta;</sup>
+                </p>
+                <div class="lineup-actions">
+                    <a href="#" class="pill-btn glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="text-link-buy">Pra-pesan &gt;</a>
+                </div>
+            </div>
 
-      <!-- Product 3 -->
-      <div class="product-card">
-        <div class="product-img-box">
-          <img src="../images/macbook-pro.png" alt="MacBook Pro">
-        </div>
-        <div class="color-dots">
-          <span class="dot" style="background: #37474f;"></span>
-          <span class="dot" style="background: #cfd8dc;"></span>
-        </div>
-        <h3 class="product-name">MacBook Pro 14” and 16”</h3>
-        <p class="product-tagline">The most advanced Mac laptops for demanding tasks.</p>
-        <p class="product-price">From $1599 or $133.25/mo. for 12 mo.</p>
-        <div class="product-actions">
-          <a href="#" class="btn-blue">Learn more</a>
-          <a href="#" class="link-blue">Buy &gt;</a>
-        </div>
-      </div>
+            <!-- Product 6: Mac Studio -->
+            <div class="lineup-card holo" data-category="desktops">
+                <div class="lineup-visual visual-mini">
+                    <img src="../images/mac-studio.png" alt="Mac Studio">
+                </div>
+                <span class="badge-new">Baru</span>
+                <h3>Mac Studio</h3>
+                <p class="lineup-desc">Performa bertenaga untuk alur kerja pro.</p>
+                <p class="lineup-price">
+                    Mulai $2499 atau $208,25/bln untuk 12 bln.<sup>&Delta;</sup><br>
+                    Sewa mulai $48,99/bln untuk 36 bln dengan Apple Upgrade.<sup>&Delta;</sup>
+                </p>
+                <div class="lineup-actions">
+                    <a href="#" class="pill-btn glossy">Pelajari selengkapnya</a>
+                    <a href="#" class="text-link-buy">Beli &gt;</a>
+                </div>
+            </div>
 
-      <!-- Product 4 -->
-      <div class="product-card">
-        <div class="product-img-box">
-          <img src="../images/imac.png" alt="iMac">
         </div>
-        <div class="color-dots">
-          <span class="dot" style="background: #ef5350;"></span>
-          <span class="dot" style="background: #42a5f5;"></span>
-          <span class="dot" style="background: #66bb6a;"></span>
-          <span class="dot" style="background: #ffee58;"></span>
-          <span class="dot" style="background: #ab47bc;"></span>
-          <span class="dot" style="background: #ffa726;"></span>
-          <span class="dot" style="background: #b0bec5;"></span>
-        </div>
-        <h3 class="product-name">iMac</h3>
-        <p class="product-tagline">An all-in-one desktop for creativity and productivity.</p>
-        <p class="product-price">From $1299 or $108.25/mo. for 12 mo.</p>
-        <div class="product-actions">
-          <a href="#" class="btn-blue">Learn more</a>
-          <a href="#" class="link-blue">Buy &gt;</a>
-        </div>
-      </div>
 
-      <!-- Product 5 -->
-      <div class="product-card">
-        <div class="product-img-box">
-          <img src="../images/mac-mini.png" alt="Mac mini">
+        <!-- Tombol panah navigasi carousel -->
+        <div class="carousel-nav">
+            <button class="carousel-btn prev" aria-label="Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="carousel-btn next" aria-label="Berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
         </div>
-        <span class="badge-new">New</span>
-        <h3 class="product-name">Mac mini</h3>
-        <p class="product-tagline">The mini-est, most affordable Mac desktop.</p>
-        <p class="product-price">From $599 or $49.91/mo. for 12 mo.</p>
-        <div class="product-actions">
-          <a href="#" class="btn-blue">Learn more</a>
-          <a href="#" class="link-blue">Pre-order &gt;</a>
-        </div>
-      </div>
 
-    </div>
-  </section>
+    </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
